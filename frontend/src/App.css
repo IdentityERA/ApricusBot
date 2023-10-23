@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+nav .nav-wrapper {
+  margin: 0px 0px 0px 50px;
+}
+.brand-logo {
+  color: #000 !important;
+}
+.bot-outer {
+  height: 500px;
+  width: 400px;
+  position: absolute !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  border: 1px solid lightgrey;
+}
+.bot-inner {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  padding: 20px;
+}
+.chatbot-head {
+  background-color: yellow;
+}
+.chatbot-head h2 {
+  margin: 0 !important;
+  font-size: 20px;
+  padding: 20px;
+  font-weight: bold;
+}
+.card-panel {
+  padding: 8px !important;
+  height: fit-content !important;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 15px 8px;
+}
+.btn-floating.btn-large {
+  width: 35px;
+  height: 35px;
+}
+.btn-large {
+  line-height: 35px !important;
+  font-size: 12px !important;
+}
+.fa-robot {
+  color: #000 !important;
+}
+/* .me-bot {
+  float: left !important;
+}
+.me-user {
+  float: left !important;
+} */
+nav ul a, nav .brand-logo {
+  text-decoration: none;
+}
+nav ul a:hover, nav:hover .brand-logo:hover {
+  color: #000 !important;
+}
+.dropdown-menu {
+  min-width: 9rem !important;
+}
+.dropdown button, .dropdown button:hover {
+  box-shadow: none;
+  color: #000;
+  background-color: none !important;
+}
+.dropdown-item:active>button {
+  background-color: none !important;
+}
+.dropdown-item {
+  padding: 0px 0px !important;
+  margin: 0px 0px!important;
+  height: 7vh;
+}
+.dropdown-item span {
+  padding: 0px 10px 0px 10px;
+}
+.dropdown-item:hover {
+  color: #000 !important;
+}
+.close-icon {
+  float: right;
+}
+.close {
+  background-color: #8c0606f0;
+  padding: 5px;
+  font-size: 13px !important;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #fff;
+  width: 30px !important;
+  height: 30px !important;
+}
+li:hover {
+  background: none !important;
+}
+nav {
+  background: #F3F2F1;
+}
+.dropdown-item:hover>button {
+  color: #000 !important;
+}
+.attach-file-input {
+  display: none;
+}
+.file-attach-root {
+  display: flex;
+  margin: 10px 0px 0px 0px;
+}
+.attach-file-logo {
+  color: #000000 !important;
+  font-size: 28px !important;
+  margin: 0px 5px;
+}
+.upload {
+  border-radius: 5px;
+  padding: 0px 8px;
+  font-size: 13px;
+  height: 30px;
+  background: #ced4da;
+  border: 1px solid #6c757d;
+}
